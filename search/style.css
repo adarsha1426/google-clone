@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+a{
+    font: smaller;
+    text-decoration: none;
+    color: black;
+    padding:10px;
+}
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+span:hover{
+    cursor:default;
+}
+a button{
+    padding: 8px 14px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    color: white;
+    background-color: #066aec;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-right: 8px;
+    min-width: 96px;
+    text-align: center;
+    vertical-align: middle;
+}
+a button:hover{
+    cursor: pointer;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;   
+}
+.logo{
+    margin-top: 8%;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo:hover{
+    border-color: #dfe1e5;
+    border:0px solid #dfe1e5;
+}
+form{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-search-button{
+    margin: 2px;
+}
+.input-text{
+    width: 100%;
+    outline: none;
+    border: 0px;
+}
+.search-box{
+    border: 1px solid  #ccc;
+    border-radius: 20px;
+    height: 44px;
+    width: 600px;
+    margin-left:auto ;
+    margin-right:auto ;
+    display: flex;
+    justify-content:space-around ;
+    align-items:center;
+    outline: none;
+}
+.mic-logo{
+    width: 35px;
+}
+.search-logo{
+    width: 35px;
+
+}
+.lens{
+    width: 30px;
+
+}
+.search-box:hover{
+    box-shadow: #dfe1e5;
+    -webkit-tap-highlight-color: transparent;
+}
+span{
+    padding: 0px;
+}
+.buttons{
+    margin-top: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#search-button,
+#lucky-button{
+    font-family: arial,sans-serif;
+    display: block;
+    height: 40px;
+    min-width: 54px;
+    border: #ccc;
+    background-color: #f8f9fa;
+    margin: 4px;
+    border-radius: 7px;
+}
+#search-button,
+#lucky-button:hover{
+    cursor: pointer;
+    border: 1px #ccc;
+    
+}
+.language {
+    margin-top: 10px;;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    font-family: arial,sans-serif;
+
+}
+.language a{
+    color:#066aec;
+}
+.language a:hover{
+    cursor: pointer;
+}
+footer{
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  margin-top:45%;
+  font-family: arial,sans-serif;
+  
+}
+
